@@ -1,7 +1,7 @@
 {
-  "name": "typescript-tdd-kata",
+  "name": "typescript-reflexion",
   "version": "1.0.0",
-  "description": "a quick repo for initializing an environment to practice TDD w/ Typescript",
+  "description": "quick repo to introduce class creation with reflexion",
   "main": "build/index.js",
   "scripts": {
     "test": "jest --watchAll --env=jsdom",
