@@ -9,7 +9,7 @@ interface Book {
 }
 
 describe("createClass with env variables", () => {
-  it("should create a class with the given methods from env variables", () => {
+  it("should create a class from env variables", () => {
     const className = process.env.CLASS_NAME;
 
     const BookClass = createClass<Book>(className!);
